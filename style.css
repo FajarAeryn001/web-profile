@@ -1,0 +1,136 @@
+*,html {
+margin: 0;
+padding: 0;
+
+}
+body {
+    height: 200vh;
+    background-color: rgb(5, 5, 141);
+    color: white;
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(img/bg2.jpg);
+    background-size: cover;
+    height: 15vh;
+}
+nav h2 {
+    margin-left: 30px;
+    font-size: 40px;
+}
+nav ul {
+    display: flex;
+    margin-right: 30px;
+
+}
+nav ul li {
+    margin: 10px;
+    list-style-type: none;
+}
+nav ul li a{
+ text-decoration: none;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+ color :aliceblue;
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(img/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero .hero-conten {
+    text-align: center;
+    line-height: 40px;
+}
+
+/* ABOUT */
+
+.about {
+    height: 140vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    border-bottom: 2px solid;
+    background-image: url(img/gradasi.jpg);
+    background-size: cover;
+}
+
+.about .about-conten {
+    margin-top: -200px;
+    text-align: center;
+}
+
+.about .about-conten p {
+ padding: 60px;
+ font-family: helvetica;
+ line-height: 30px;
+ margin-top: -100px; 
+
+}
+
+
+/* KONTAK */
+.kontak {
+    height: 140vh;
+    line-height: 60px;
+    background-image: url(img/bg2.jpg);
+    background-size: cover;
+}
+
+.kontak .kontak-conten {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.kontak .kontak-conten img {
+    margin: 30px;
+}
+
+
+footer {
+   background-image: url(img/bg2.jpg);
+   background-size: cover;
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+ /*   projek    */
+
+.frame  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+
+
+@media only screen and (max-width:450px){
+.about {
+    height: 150vh;
+}
+nav {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.kontak {
+    height: 130vh;
+}
+
+}
