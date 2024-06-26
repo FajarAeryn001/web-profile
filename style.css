@@ -4,7 +4,7 @@ padding: 0;
 
 }
 body {
-    height: 200vh;
+
     background-color: rgb(5, 5, 141);
     color: white;
 }
@@ -68,6 +68,11 @@ nav ul li a{
     background-image: url(img/gradasi.jpg);
     background-size: cover;
 }
+.about p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    
+}
 
 .about .about-conten {
     margin-top: -200px;
@@ -112,18 +117,26 @@ footer {
 
  /*   projek    */
 
-.frame  {
+.projek  {
+    height: 100vh;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    padding: 50px;
+    align-items: center;
+    background-image: url(img/gradasi.jpg);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
 }
 
 
 
 @media only screen and (max-width:450px){
 .about {
-    height: 150vh;
+    height: 160vh;
+}
+.about p {
+
+    font-size: 15px;
 }
 nav {
     flex-wrap: wrap;
@@ -133,4 +146,7 @@ nav {
     height: 130vh;
 }
 
+.projek {
+    text-align: center;
+}
 }
